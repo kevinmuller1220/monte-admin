@@ -1,0 +1,25 @@
+// Core variables and mixins
+@import "bower_components/material-design-lite/src/_color-definitions.scss";
+@import "monte/mixins";
+@import "monte/variables";
+@import "monte/variables-colors";
+@import "monte/colors";
+
+// Material Design Lite
+@import "bower_components/material-design-lite/src/material-design-lite";
+
+// Core CSS
+@import "monte/scaffolding";
+
+@import "monte/animations";
+@import "monte/base";
+@import "monte/buttons";
+@import "monte/tables";
+@import "monte/cards";
+@import "monte/component-animations";
+@import "monte/typography";
+@import "monte/navigation";
+@import "monte/pages";
+@import "monte/sticky";
+
+@import "monte/mdl-overrides";
